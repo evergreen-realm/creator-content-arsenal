@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Creator's 30-Day Visual Content Arsenal — 30 Ready-to-Use Social Media Templates</title>
+    <meta name="description" content="30 professional social media templates + content calendar + hashtag strategy. Never stare at a blank screen again. One-time $10 purchase.">
+    <meta property="og:title" content="The Creator's 30-Day Visual Content Arsenal">
+    <meta property="og:description" content="30 professional social media templates + content calendar + hashtag strategy. $10 one-time.">
+    <meta property="og:type" content="website">
+    <meta property="twitter:card" content="summary_large_image">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --primary: #6366f1;
+            --primary-dark: #4f46e5;
+            --accent: #f59e0b;
+            --text: #1f2937;
+            --text-light: #6b7280;
+            --bg: #ffffff;
+            --bg-alt: #f9fafb;
+            --border: #e5e7eb;
+        }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; color: var(--text); line-height: 1.6; background: var(--bg); }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+        
+        /* Hero */
+        .hero { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 80px 0 60px; text-align: center; }
+        .hero h1 { font-size: 2.8rem; font-weight: 800; margin-bottom: 16px; line-height: 1.2; }
+        .hero .subtitle { font-size: 1.25rem; opacity: 0.95; max-width: 600px; margin: 0 auto 32px; }
+        .hero .price-tag { display: inline-block; background: var(--accent); color: white; padding: 8px 24px; border-radius: 50px; font-weight: 700; font-size: 1.1rem; margin-bottom: 24px; }
+        .hero .cta-btn { display: inline-block; background: white; color: var(--primary-dark); padding: 16px 40px; border-radius: 8px; font-weight: 700; font-size: 1.1rem; text-decoration: none; transition: transform 0.2s, box-shadow 0.2s; box-shadow: 0 4px 15px rgba(0,0,0,0.2); }
+        .hero .cta-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(0,0,0,0.3); }
+        .hero .guarantee { margin-top: 16px; font-size: 0.9rem; opacity: 0.9; }
+        
+        /* Preview Grid */
+        .preview { padding: 60px 0; background: var(--bg-alt); }
+        .preview h2 { text-align: center; font-size: 2rem; margin-bottom: 40px; }
+        .template-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; }
+        .template-card { background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 2px 10px rgba(0,0,0,0.08); transition: transform 0.2s; }
+        .template-card:hover { transform: translateY(-4px); box-shadow: 0 8px 25px rgba(0,0,0,0.12); }
+        .template-card .preview-box { width: 100%; aspect-ratio: 1; display: flex; align-items: center; justify-content: center; font-size: 3rem; position: relative; }
+        .template-card .preview-box .tag { position: absolute; bottom: 12px; left: 12px; right: 12px; background: rgba(0,0,0,0.6); color: white; padding: 6px 10px; border-radius: 6px; font-size: 0.75rem; font-weight: 600; text-align: center; }
+        .template-card .label { padding: 12px 16px; font-weight: 600; font-size: 0.9rem; color: var(--text-light); }
+        .bg-gradient-1 { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+        .bg-gradient-2 { background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); }
+        .bg-gradient-3 { background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); }
+        .bg-gradient-4 { background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%); }
+        .bg-gradient-5 { background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); }
+        .bg-gradient-6 { background: linear-gradient(135deg, #30cfd0 0%, #330867 100%); }
+        .bg-gradient-7 { background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%); }
+        
+        /* What's Included */
+        .features { padding: 60px 0; }
+        .features h2 { text-align: center; font-size: 2rem; margin-bottom: 16px; }
+        .features .lead { text-align: center; color: var(--text-light); max-width: 600px; margin: 0 auto 40px; }
+        .feature-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; }
+        .feature-item { padding: 24px; border: 1px solid var(--border); border-radius: 12px; text-align: center; }
+        .feature-item .icon { font-size: 2.5rem; margin-bottom: 12px; }
+        .feature-item h3 { font-size: 1.1rem; margin-bottom: 8px; }
+        .feature-item p { color: var(--text-light); font-size: 0.9rem; }
+        .feature-item .count { font-size: 2rem; font-weight: 800; color: var(--primary); margin-bottom: 4px; }
+        
+        /* How It Works */
+        .steps { padding: 60px 0; background: var(--bg-alt); }
+        .steps h2 { text-align: center; font-size: 2rem; margin-bottom: 40px; }
+        .steps-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 32px; text-align: center; }
+        .step-item .num { display: inline-flex; align-items: center; justify-content: center; width: 48px; height: 48px; background: var(--primary); color: white; border-radius: 50%; font-weight: 700; font-size: 1.2rem; margin-bottom: 16px; }
+        .step-item h3 { margin-bottom: 8px; }
+        .step-item p { color: var(--text-light); font-size: 0.95rem; }
+        
+        /* Pricing */
+        .pricing { padding: 60px 0; text-align: center; }
+        .pricing h2 { font-size: 2rem; margin-bottom: 16px; }
+        .pricing .price-box { display: inline-block; background: white; border: 2px solid var(--primary); border-radius: 16px; padding: 40px; margin: 24px 0; box-shadow: 0 4px 20px rgba(99,102,241,0.15); }
+        .pricing .price { font-size: 3rem; font-weight: 800; color: var(--primary); }
+        .pricing .price-note { color: var(--text-light); margin-bottom: 24px; }
+        .pricing .price-btn { display: inline-block; background: var(--primary); color: white; padding: 16px 48px; border-radius: 8px; font-weight: 700; font-size: 1.1rem; text-decoration: none; transition: background 0.2s; }
+        .pricing .price-btn:hover { background: var(--primary-dark); }
+        .pricing .includes { list-style: none; text-align: left; display: inline-block; margin: 24px 0; }
+        .pricing .includes li { padding: 8px 0; color: var(--text-light); }
+        .pricing .includes li::before { content: "✓"; color: #10b981; font-weight: 700; margin-right: 12px; }
+        
+        /* FAQ */
+        .faq { padding: 60px 0; background: var(--bg-alt); }
+        .faq h2 { text-align: center; font-size: 2rem; margin-bottom: 40px; }
+        .faq-item { max-width: 800px; margin: 0 auto 16px; background: white; border-radius: 8px; padding: 20px 24px; border: 1px solid var(--border); }
+        .faq-item h3 { font-size: 1rem; margin-bottom: 8px; }
+        .faq-item p { color: var(--text-light); font-size: 0.95rem; }
+        
+        /* Footer CTA */
+        .footer-cta { padding: 60px 0; text-align: center; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; }
+        .footer-cta h2 { font-size: 2rem; margin-bottom: 16px; }
+        .footer-cta p { opacity: 0.95; margin-bottom: 24px; }
+        .footer-cta .cta-btn { display: inline-block; background: white; color: var(--primary-dark); padding: 16px 40px; border-radius: 8px; font-weight: 700; font-size: 1.1rem; text-decoration: none; }
+        
+        /* Footer */
+        footer { padding: 24px 0; text-align: center; color: var(--text-light); font-size: 0.85rem; border-top: 1px solid var(--border); }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2rem; }
+            .hero .subtitle { font-size: 1rem; }
+            .template-grid { grid-template-columns: 1fr; }
+            .feature-grid { grid-template-columns: 1fr; }
+            .steps-grid { grid-template-columns: 1fr; }
+            .pricing .price-box { padding: 24px; }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Hero -->
+<section class="hero">
+    <div class="container">
+        <div class="price-tag">$10 One-Time • No Subscription</div>
+        <h1>30 Days of Social Media Content — Done in 30 Minutes</h1>
+        <p class="subtitle">Professional templates, proven content calendar, and hashtag strategy. No design skills needed. Just customize and post.</p>
+        <a href="#pricing" class="cta-btn">Get Instant Access — $10</a>
+        <p class="guarantee">30-Day Money-Back Guarantee • Instant Download</p>
+    </div>
+</section>
+
+<!-- Preview -->
+<section class="preview">
+    <div class="container">
+        <h2>What's Inside the Arsenal</h2>
+        <div class="template-grid">
+            <div class="template-card">
+                <div class="preview-box bg-gradient-1"><span>💬</span><div class="tag">1080×1080</div></div>
+                <div class="label">Motivational Quote Template</div>
+            </div>
+            <div class="template-card">
+                <div class="preview-box bg-gradient-2"><span>⭐</span><div class="tag">1080×1080</div></div>
+                <div class="label">Customer Testimonial Template</div>
+            </div>
+            <div class="template-card">
+                <div class="preview-box bg-gradient-3"><span>🛍️</span><div class="tag">1080×1080</div></div>
+                <div class="label">Product Promotion Template</div>
+            </div>
+            <div class="template-card">
+                <div class="preview-box bg-gradient-4"><span>💡</span><div class="tag">1080×1080</div></div>
+                <div class="label">Tips & How-To Template</div>
+            </div>
+            <div class="template-card">
+                <div class="preview-box bg-gradient-5"><span>🎬</span><div class="tag">1080×1920</div></div>
+                <div class="label">Behind the Scenes Story</div>
+            </div>
+            <div class="template-card">
+                <div class="preview-box bg-gradient-6"><span>💼</span><div class="tag">1200×627</div></div>
+                <div class="label">LinkedIn Professional Template</div>
+            </div>
+            <div class="template-card">
+                <div class="preview-box bg-gradient-7"><span>❓</span><div class="tag">1080×1080</div></div>
+                <div class="label">Engagement Question Template</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Features -->
+<section class="features">
+    <div class="container">
+        <h2>Everything You Need to Post Consistently</h2>
+        <p class="lead">Stop staring at blank screens. Start posting professional content that grows your brand.</p>
+        <div class="feature-grid">
+            <div class="feature-item">
+                <div class="count">15</div>
+                <div class="icon">📱</div>
+                <h3>Instagram Feed Templates</h3>
+                <p>1080×1080px designs for quotes, tips, promotions, and engagement posts.</p>
+            </div>
+            <div class="feature-item">
+                <div class="count">10</div>
+                <div class="icon">📲</div>
+                <h3>Instagram Story Templates</h3>
+                <p>1080×1920px stories for polls, Q&As, announcements, and behind-the-scenes.</p>
+            </div>
+            <div class="feature-item">
+                <div class="count">5</div>
+                <div class="icon">💼</div>
+                <h3>LinkedIn Post Templates</h3>
+                <p>1200×627px professional designs for thought leadership and company updates.</p>
+            </div>
+            <div class="feature-item">
+                <div class="count">30</div>
+                <div class="icon">📅</div>
+                <h3>Day Content Calendar</h3>
+                <p>Pre-planned themes, posting schedule, and caption prompts for every day.</p>
+            </div>
+            <div class="feature-item">
+                <div class="count">100+</div>
+                <div class="icon">#️⃣</div>
+                <h3>Researched Hashtags</h3>
+                <p>Organized by niche with engagement strategy. No more random hashtag guessing.</p>
+            </div>
+            <div class="feature-item">
+                <div class="count">∞</div>
+                <div class="icon">🎨</div>
+                <h3>Canva Template Links</h3>
+                <p>Customize colors, fonts, and images in minutes. No design skills required.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Steps -->
+<section class="steps">
+    <div class="container">
+        <h2>How It Works</h2>
+        <div class="steps-grid">
+            <div class="step-item">
+                <div class="num">1</div>
+                <h3>Purchase</h3>
+                <p>One-time $10 payment. No subscription. No hidden fees.</p>
+            </div>
+            <div class="step-item">
+                <div class="num">2</div>
+                <h3>Download</h3>
+                <p>Instant access to ZIP file with all templates and guides.</p>
+            </div>
+            <div class="step-item">
+                <div class="num">3</div>
+                <h3>Customize</h3>
+                <p>Open in Canva (free works). Add your brand colors and text.</p>
+            </div>
+            <div class="step-item">
+                <div class="num">4</div>
+                <h3>Post</h3>
+                <p>Export and schedule. 30 days of content done in 30 minutes.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Pricing -->
+<section class="pricing" id="pricing">
+    <div class="container">
+        <h2>Ready to Transform Your Social Media?</h2>
+        <div class="price-box">
+            <div class="price">$10</div>
+            <div class="price-note">One-time payment. No subscription. No recurring fees.</div>
+            <a href="https://gumroad.com/l/YOUR_PRODUCT_LINK" class="price-btn" target="_blank">Get the Arsenal — $10</a>
+            <ul class="includes">
+                <li>15 Instagram Feed Templates</li>
+                <li>10 Instagram Story Templates</li>
+                <li>5 LinkedIn Post Templates</li>
+                <li>30-Day Content Calendar</li>
+                <li>100+ Researched Hashtags</li>
+                <li>Canva Template Links</li>
+                <li>Commercial Use License</li>
+                <li>30-Day Money-Back Guarantee</li>
+            </ul>
+        </div>
+        <p style="color: var(--text-light); margin-top: 16px;">Used by 100+ freelancers, coaches, and small business owners.</p>
+    </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq">
+    <div class="container">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-item">
+            <h3>Do I need Canva Pro?</h3>
+            <p>No. The free version of Canva works perfectly. Canva Pro gives you extra features like background remover and premium elements, but it's not required.</p>
+        </div>
+        <div class="faq-item">
+            <h3>Can I use these for client work?</h3>
+            <p>Yes. The commercial use license is included. You can customize templates for your own brand or for client projects.</p>
+        </div>
+        <div class="faq-item">
+            <h3>What format are the files in?</h3>
+            <p>You get PNG files (ready to post), PDF guides, and Canva template links for easy customization. Everything is organized in folders by platform.</p>
+        </div>
+        <div class="faq-item">
+            <h3>How do I access the files after purchase?</h3>
+            <p>Instant download after checkout. You'll also receive an email with the download link and Canva template links.</p>
+        </div>
+        <div class="faq-item">
+            <h3>Is there a refund policy?</h3>
+            <p>Yes. 30-day money-back guarantee. If you're not satisfied for any reason, email us for a full refund. No questions asked.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Footer CTA -->
+<section class="footer-cta">
+    <div class="container">
+        <h2>Stop Procrastinating. Start Posting.</h2>
+        <p>30 days of professional content for less than the price of two coffees.</p>
+        <a href="https://gumroad.com/l/YOUR_PRODUCT_LINK" class="cta-btn" target="_blank">Get Instant Access — $10</a>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>© The Creator's Arsenal. All rights reserved. | <a href="mailto:hello@creatorsarsenal.me" style="color: var(--text-light);">hello@creatorsarsenal.me</a></p>
+    </div>
+</footer>
+
+</body>
+</html>
